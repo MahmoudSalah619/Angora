@@ -1,0 +1,533 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0px;
+    padding:0px;
+}
+.starter
+{
+    display:flex;
+    justify-content: space-around;
+    /* padding: 10px; */
+    border-bottom: white 1px solid;
+
+}
+.starter img
+{
+    padding: 30px;
+}
+
+header
+{
+    height: 100vh;
+    background-image: url(images/slideshow-1.jpg);
+    background-size: cover;
+    overflow: hidden;
+    margin-bottom: 150px;
+    
+}
+.list ul
+{
+    display:flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white ;
+    font-weight: 400;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    padding: 0px 0px 0px 0px;
+    
+}
+
+.list i
+{
+    padding: 10px 15px;
+}
+
+
+.list a
+{
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+.bodyy
+{
+    color:white;
+    position: relative;
+    top:15%;
+    text-align: center;
+}
+.bodyy h2
+{
+    font-size: 70px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+
+}
+/* <!-----------------------------ABOUT------------------------------------------> */
+article
+{
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+.about
+{
+    text-align: center;
+    padding-bottom: 100px;
+}
+.about h2
+{
+    font-size: 45px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+
+}
+.about p
+{
+    color:#999;
+    font-family: 'Poppins', sans-serif;
+
+}
+.bolla
+{
+    margin-bottom:70px ;
+}
+.progress
+{
+    margin:30px 0px;
+    height: 10px;
+}
+.para p
+{
+    color:#999;
+}
+/* <!------------------------------Team----------------------------------------> */
+
+.aboutt
+{
+    text-align: center;
+
+}
+.aboutt h2
+{
+    font-size: 45px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+
+}
+.aboutt p
+{
+    color:#999;
+    font-family: 'Poppins', sans-serif;
+
+}
+.photos h4
+{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top:20px
+}
+
+.photos p
+{
+    font-size: 13px;
+    font-weight: 400;
+    color:#999;
+
+}
+.soso
+{
+    overflow: hidden;
+    width: auto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.clicko
+{
+    width: 100%;
+    height:100%;
+    background-color: rgba(242, 84, 84, 0.85);
+    position: absolute;
+    left: 0px;
+    top:0px;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clicko:hover 
+{
+    opacity: 0.7;
+    transition: 1s ;
+}
+
+.soso:hover img
+{
+    transform:scale(1.1);
+    transition: 1s ;
+}
+
+.clicko a
+{
+    color: white;
+    padding:0px 10px;
+}
+/* --------------------------------Projects-------------------------------------- */
+
+.projects
+{
+    padding-bottom:150px;
+
+}
+
+.lista
+{
+    padding: 0px 0px 50px 0px;
+}
+
+.main
+{
+    width:100%;
+}
+
+.ideas
+{
+    justify-content: space-around;
+}
+
+.ideas button
+{
+    font-weight: 800;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+.ideas h2
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+}
+/* ----------------------------------Services-------------------------------------------- */
+.secto
+{
+    padding-bottom: 17px;
+    overflow: hidden;
+}
+.spaace
+{
+    clear: both;
+    padding: 5px;
+}
+
+.lott i
+{
+    float:left;
+    padding-right: 15px;
+    color: #f25454;
+    font-size: 30px;
+
+}
+.lott h5
+{
+    float: left;
+}
+.lott p
+{
+    color: #999;
+}
+.abouttt
+{
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+.abouttt h2
+{
+    font-size: 45px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+
+}
+.abouttt p
+{
+    color:#999;
+    font-family: 'Poppins', sans-serif;
+
+}
+/* .iphoto
+{
+    width: 100%;
+    height: 10px;
+} */
+
+/* !/----------------------------Review---------------------------------*/
+
+.iphotos
+{
+    width: 80%;
+    margin:auto;
+    display:flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+.iphotos img
+{
+    margin:auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
+}
+.middle
+{
+    opacity: 0.6;
+}
+.info
+{
+    text-align: center;
+    font-weight: 500;
+}
+.info p
+{
+    color: #999;
+}
+.quote
+{
+    font-size: 24px;
+    color: #555;
+}
+/* !--------------------------------Review black--------------------------------------- */
+
+.blacko
+{
+    background-color: #1f1f1f;
+
+}
+.iconss{
+
+    text-align: center;
+    color: white;
+    padding:50px
+
+}
+.iconss i
+{
+    color: #f25454;
+    font-size: 70px;
+    padding-bottom: 20px;
+
+
+}
+.iconss h2
+{
+    font-weight: 900;
+    font-size: 50px;
+}
+.iconss h2 
+{
+    border-right: #999 1px solid;
+}
+
+/* <!--------------------------blog post----------------------------- */
+.posts p
+{
+    font-size: 16px;
+    color:#999
+}
+.date 
+{
+    font-size: 13px;
+    color:#999
+}
+.posts h4
+{
+    font-weight: 800;
+    color: #333
+}
+.posts
+{
+    padding-bottom: 100px;
+}
+.posts img
+{
+    padding-bottom: 50px;
+}
+.red
+{
+    color: #f25454;
+}
+.redo
+{
+    font-size: 13px;
+    color: #f25454;
+
+}
+
+.logoss
+{
+    display:flex;
+    justify-content: space-around;
+
+}
+.logg
+{
+    opacity: 0.6;
+}
+.logg:hover
+{
+    opacity:1;
+}
+
+.pozz:hover img
+{
+    transform:scale(1.1);
+    transition: 1s ease;
+
+}
+.pozz
+{
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    position: relative;
+    top:0px;
+    left: 0px;
+}
+
+/* <!---------------------------Reviews-----------------------------------> */
+.inpo input
+{
+    padding-right: 200px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    height: 25px;
+    border-color: #999;
+    opacity: 0.8;
+    border: rgba(0,0,0,.1) 2px solid;
+
+}
+.inpo button
+{
+    padding:10px;
+}
+.inpo
+{
+    padding-top:20px;
+    line-height: 10px;
+}
+.fotra
+{
+    height: auto;
+    justify-content: space-between;
+}
+.fotra h3
+{
+    font-size: 30px;
+    font-weight: 800;
+    padding-bottom: 25px;
+    
+}
+.pinfo h4
+{
+    font-size: 25px;
+    margin-bottom: 17px;
+    font-family: inherit;
+    color: inherit;
+
+}
+.pinfo p
+{
+    font-size: 13px;
+    color:#999
+
+}
+.fotra i
+{
+    float: left;
+    color: #f25454;
+    font-size: 25px;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+.footer
+{
+    padding: 0px;
+}
+
+.inpo i
+{
+    color: white;
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+.red
+{
+    color: black;
+}
+
+.red:hover
+{
+    color: red;
+}
+
+
+
+
+
+.pa
+{
+    width: 20px;
+    height: 30px;
+    position: relative;
+    top: 300px;
+    left: 50%;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.ma
+{
+    position: absolute;
+    margin: auto;
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    display: flex;
+    animation: fekra 2s ease-in-out infinite ;
+    border-radius: 50%;
+
+}
+
+@keyframes fekra
+{   0%{
+    position: relative;
+    transform: translateY(0%);
+}
+    
+    100%{
+
+     position: relative;
+     transform: translateY(200%);
+     opacity: 0;
+    
+    }
+}
+
+
+
+
+
+
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px
+}
